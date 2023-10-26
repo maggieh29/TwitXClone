@@ -2,6 +2,7 @@ package com.example.twitxclone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -20,6 +21,9 @@ public class SignUpActivity extends AppCompatActivity {
         usernameText = findViewById(R.id.user_field);
         passwordText = findViewById(R.id.pass_field);
         dobText = findViewById(R.id.dob_field);
+
+
+
     }
 
 
